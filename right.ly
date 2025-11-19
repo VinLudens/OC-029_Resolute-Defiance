@@ -60,6 +60,43 @@ right = \relative c' {
   <dis gis ais dis>2 r4 <cis cis'>8 <fis fis'> |
   <b, b'>4 <ais ais'>4  <ais'' ais'>8. <b b'> <fis' fis'>8  |
 
-  <dis='' gis ais dis>
+  \tempo "Maestoso" 4 = 88
+
+  <dis='' gis ais dis>2 <cis cis'>4 <b b'> |
+  <ais dis fis ais>2 <gis gis'>4 <fis fis'> |
+  <dis gis ais dis>2 <cis cis'>4 <b b'> |
+  <ais= dis fis ais>8 <b b'> <fis' fis'> <dis dis'> <ais' ais'> <b b'> <fis' fis'> <dis dis'> |
+
+  <dis='' gis ais dis>2 <cis cis'>4 <b b'> |
+  <ais=' dis fis ais>2 <gis gis'>4 <fis' fis'>8. <fis='' fis'>16 |
+  <dis='' gis ais dis>2 <dis,=' gis ais dis>4 \tuplet 3/2 { <dis=' dis'>8 q q } |
+  <dis gis ais dis>2 <dis'='' gis ais dis>\fermata |
+
+  \tempo "Moderato" 4 = 96 - 108
+
+  dis'='''16 gis, dis gis dis' gis, dis gis cis gis dis gis b gis dis gis
+  ais f cis f ais f cis f gis f cis f fis cis b cis
+  dis b fis b dis b fis b fis' b, fis b dis b fis b
+  ais fis b fis fis' fis, dis' fis, ais' fis b fis fis' fis, dis' fis,
+
+  dis' gis, dis gis dis' gis, dis gis cis gis dis gis b gis dis gis
+  ais fis cis fis ais fis cis fis ais fis cis fis ais fis cis fis
+  ais, ais' b, ais' fis ais dis, ais' ais, ais' b, ais' fis ais dis, ais'
+  dis, gis cis, gis' b, gis' cis, gis' dis gis cis, gis' b, gis' ais, gis'
+
+  ais, ais' b, ais' fis ais dis, ais' ais, ais' b, ais' fis ais dis, ais'
+  dis, gis cis, gis' b, gis' cis, gis' dis gis cis, gis' b, gis' ais, gis'
+  ais, ais' b, ais' dis, ais' fis ais ais, ais' b, ais' fis ais ais ais'
+  b, b' ais, ais' fis, fis' dis, dis' b, b' ais,8 fis cis
+
+  <fisis, b fis'>2 e' |
+
+  \once \set Staff.caesuraType = #'((underlying-bar-line . "||"))
+  \once \set Staff.caesuraTypeTransform = ##f
+  \caesura ^\fermata _\fermata
+
+  \bar "||"
+
+  a
 
 }
