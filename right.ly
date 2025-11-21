@@ -36,7 +36,6 @@ right = \relative c' {
   s1 |
 
   \bar "||"
-  % \time 12/8
   \key gis \minor
   \tempo "Allegretto" 4 = 108
 
@@ -97,6 +96,43 @@ right = \relative c' {
 
   \bar "||"
 
-  a
+  \key fis \major
+  \tempo "Tempo 1" 4 = 132
+
+  \partial 4 dis='8(\( eis |
+  fis-_) gis-_ fis-_ eis8~( 8 dis-_) cis-_ ais~( |
+  8 gis cis ais~ 8)\) r dis='(\( eis |
+  fis-_) gis-_ fis-_ eis~( 8 dis-_) cis'-_ ais~( |
+  4 gis8 ais~ 8)\) r dis,='(\( eis |
+
+  fis-_) gis-_ fis-_ eis8~( 8 dis-_) cis-_ ais~( |
+  8 gis cis ais~8)\) r dis='\( eis |
+  fis gis ais gis~8 fis eis dis~ |
+  2\) r4 fis'=''8\( gis |
+
+  ais b ais gis8~ 8 fis dis cis~ |
+  8 b fis' dis~ 8\) r fis\( gis |
+  ais b ais gis~ 8 fis cis' ais~ |
+  4 gis8 ais~ 8\) r dis,=''\( eis |
+
+  fis gis fis eis8~ 8 dis cis ais~ |
+  8 gis cis ais~8\) r dis=''\( eis |
+  fis gis ais gis~8 fis eis dis~ |
+  2\) r4 dis=''8\( eis |
+
+  fis gis ais gis~8 fis cis' ais~ |
+  2\) r4 dis,=''8\( eis |
+  fis gis ais( gis)\prall ~8 fis eis'4 |
+  \acciaccatura eis8 cis2\fermata\) ais=''4 dis8 cis |
+
+  s1 |
+  s1 |
+  s1 |
+
+  \bar "||"
+  \key gis \minor
+  \tempo "Tempo 2" 4 = 108
+
+  r
 
 }
