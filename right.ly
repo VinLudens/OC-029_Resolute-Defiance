@@ -40,14 +40,14 @@ right = \relative c' {
   \tempo "Allegretto" 4 = 108
 
   dis,,='16 b gis b dis b gis b dis b gis b dis b gis b |
-  fis'=' b, gis b fis' b, gis b e b gis b e b gis b
-  dis b gis b dis b gis b dis b gis b dis b gis b
-  ais' fis cis fis ais fis cis fis ais fis cis fis b fis cis fis
+  fis'=' b, gis b fis' b, gis b e b gis b e b gis b |
+  dis b gis b dis b gis b dis b gis b dis b gis b |
+  ais' fis cis fis ais fis cis fis ais fis cis fis b fis cis fis |
 
-  cis' fis, cis fis cis' fis, cis fis cis' fis, cis fis cis' fis, cis fis
-  dis' ais fis ais dis ais fis ais dis ais fis ais e' ais, fis ais
-  dis ais gis ais dis ais gis ais dis ais gis ais dis ais gis ais
-  fis' ais, gis ais fis' ais, gis ais e' ais, gis ais e' ais, gis ais
+  cis' fis, cis fis cis' fis, cis fis cis' fis, cis fis cis' fis, cis fis |
+  dis' ais fis ais dis ais fis ais dis ais fis ais e' ais, fis ais |
+  dis ais gis ais dis ais gis ais dis ais gis ais dis ais gis ais |
+  fis' ais, gis ais fis' ais, gis ais e' ais, gis ais e' ais, gis ais |
 
   <dis,=' gis ais dis>2. <cis cis'>4 |
   <b dis fis b>2 <ais ais'>4 <fis fis'> |
@@ -73,20 +73,20 @@ right = \relative c' {
 
   \tempo "Moderato" 4 = 96 - 108
 
-  dis'='''16 gis, dis gis dis' gis, dis gis cis gis dis gis b gis dis gis
-  ais f cis f ais f cis f gis f cis f fis cis b cis
-  dis b fis b dis b fis b fis' b, fis b dis b fis b
-  ais fis b fis fis' fis, dis' fis, ais' fis b fis fis' fis, dis' fis,
+  dis'='''16 gis, dis gis dis' gis, dis gis cis gis dis gis b gis dis gis |
+  ais f cis f ais f cis f gis f cis f fis cis b cis |
+  dis b fis b dis b fis b fis' b, fis b dis b fis b |
+  ais fis b fis fis' fis, dis' fis, ais' fis b fis fis' fis, dis' fis, |
 
-  dis' gis, dis gis dis' gis, dis gis cis gis dis gis b gis dis gis
-  ais fis cis fis ais fis cis fis ais fis cis fis ais fis cis fis
-  ais, ais' b, ais' fis ais dis, ais' ais, ais' b, ais' fis ais dis, ais'
-  dis, gis cis, gis' b, gis' cis, gis' dis gis cis, gis' b, gis' ais, gis'
+  dis' gis, dis gis dis' gis, dis gis cis gis dis gis b gis dis gis |
+  ais fis cis fis ais fis cis fis ais fis cis fis ais fis cis fis |
+  ais, ais' b, ais' fis ais dis, ais' ais, ais' b, ais' fis ais dis, ais' |
+  dis, gis cis, gis' b, gis' cis, gis' dis gis cis, gis' b, gis' ais, gis' |
 
-  ais, ais' b, ais' fis ais dis, ais' ais, ais' b, ais' fis ais dis, ais'
-  dis, gis cis, gis' b, gis' cis, gis' dis gis cis, gis' b, gis' ais, gis'
-  ais, ais' b, ais' dis, ais' fis ais ais, ais' b, ais' fis ais ais ais'
-  b, b' ais, ais' fis, fis' dis, dis' b, b' ais,8 fis cis
+  ais, ais' b, ais' fis ais dis, ais' ais, ais' b, ais' fis ais dis, ais' |
+  dis, gis cis, gis' b, gis' cis, gis' dis gis cis, gis' b, gis' ais, gis' |
+  ais, ais' b, ais' dis, ais' fis ais ais, ais' b, ais' fis ais ais ais' |
+  b, b' ais, ais' fis, fis' dis, dis' b, b' ais,8 fis cis |
 
   <fisis, b fis'>2 e' |
 
@@ -133,6 +133,33 @@ right = \relative c' {
   \key gis \minor
   \tempo "Tempo 2" 4 = 108
 
-  r
+  dis,,='16 b gis b fis' dis b dis ais' fis dis fis cis' ais fis ais |
+  dis b gis b fis' dis b dis ais' fis dis fis cis' ais fis ais |
+  dis cis b ais fis ais fis e dis cis b ais fis ais fis e |
+  dis e fis gis dis' ais fis gis dis b cis ais fis gis dis b |
+
+  r8 gis'=16 b fis' dis b dis ais' fis dis fis cis' ais fis ais |
+  dis b gis b fis' dis b dis ais' fis dis fis cis' ais fis ais |
+  dis cis b ais fis ais fis e dis cis b ais fis ais fis e |
+  dis e fis gis dis' ais fis gis dis b cis ais fis gis dis b |
+
+  r4 <dis'=' gis ais dis>2 <cis cis'>4 |
+  <b dis fis b>2 <ais ais'>4 <fis fis'> |
+  <dis gis ais dis>2 r4 <cis cis'>8 <fis fis'> |
+  <b, b'>4 <ais ais'>2 r4 |
+
+  r4 <dis'=' gis ais dis>2 <cis cis'>4 |
+  <b dis fis b>2 <ais ais'>4 <fis fis'> |
+  dis'='16 e fis gis dis' ais fis gis dis b cis ais fis gis dis r |
+  dis' e fis gis dis' ais fis gis dis b cis ais fis gis r8 |
+
+  ais'='16 b cis dis ais' fis cis dis ais fis gis dis b cis ais r |
+  ais'=' b cis dis ais' fis cis dis ais fis gis dis b cis ais r |
+  ais'=' b cis dis ais' fis cis dis ais fis gis dis b cis ais r |
+  dis=' e fis gis dis' ais fis gis dis b cis ais fis gis dis r |
+
+  dis'=' e fis gis dis' ais fis gis dis b cis ais fis gis dis r |
+  dis'=' e fis gis dis' ais fis gis ais b cis dis ais'4 |
+
 
 }

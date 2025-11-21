@@ -133,6 +133,32 @@ left = \relative c {
   \key gis \minor
 
 
-  <gis,=,, gis'>
+  <gis,=,, gis'>1 |
+  <fis fis'> |
+  <e e'> |
+  <cis cis'> |
+
+  <gis'=,, gis'>1 |
+  <fis fis'> |
+  <e e'> |
+  <cis cis'> |
+
+  gis''=,16 dis' gis dis gis, dis' gis dis gis, dis' gis dis gis, dis' gis dis |
+  fis, cis' fis cis fis, cis' fis cis fis, cis' fis cis fis, cis' fis, cis' |
+  e, b' e b e, b' e b e, b' e b e, b' e b |
+  cis, gis' cis gis cis, gis' cis gis cis, gis' cis gis cis, gis' cis dis |
+
+  gis,=,16 dis' gis dis gis, dis' gis dis gis, dis' gis dis gis, dis' gis dis |
+  fis, cis' fis cis fis, cis' fis cis fis, cis' fis cis fis, cis' fis, cis' |
+  e, b' e b e, b' e b e, b' e b e, b' e b |
+  cis, gis' cis gis cis, gis' cis gis cis, gis' cis gis cis, gis' cis dis |
+
+  gis,=,16 dis' gis dis gis, dis' gis dis gis, dis' gis dis gis, dis' gis dis |
+  fis, cis' fis cis fis, cis' fis cis fis, cis' fis cis fis, cis' fis, cis' |
+  e, b' e b e, b' e b e, b' e b e, b' e b |
+  cis, gis' cis gis cis, gis' cis gis cis, gis' cis gis cis, gis' cis gis |
+
+  e=, b' e b e, b' e b e, b' e b e, b' e b |
+  fis=, cis' fis cis fis, cis' fis cis d ais' d ais d, ais' d ais |
 
 }
