@@ -161,4 +161,36 @@ left = \relative c {
   e=, b' e b e, b' e b e, b' e b e, b' e b |
   fis=, cis' fis cis fis, cis' fis cis d ais' d ais d, ais' d ais |
 
+
+
+  \tuplet 6/4 4 { gis,=,16 dis' gis b dis gis b gis dis b gis dis b' gis dis b gis dis b' gis dis b gis b } |
+  \tuplet 7/4 4 { fis cis' fis ais cis fis ais cis fis cis ais fis cis ais } \tuplet 6/4 4 { fis' cis ais fis cis ais fis' cis ais fis' cis ais } |
+  \tuplet 7/4 4 { e b' e gis b e gis b e b gis e b gis } \tuplet 6/4 4 { e' b gis e b gis e' b gis e' b gis } |
+  \tuplet 6/4 4 { cis, gis' cis e gis cis } \tuplet 3/2 { e gis cis } e8  \tuplet 5/4 { dis,,=,16 ais' dis fis ais } \tuplet 6/4 { dis ais fis dis ais fis16 } |
+
+  \tuplet 6/4 4 { gis=,16 dis' gis b dis gis b gis dis b gis dis b' gis dis b gis dis b' gis dis b gis b } |
+  \tuplet 7/4 4 { fis cis' fis ais cis fis ais cis fis cis ais fis cis ais } \tuplet 6/4 4 { fis' cis ais fis cis ais fis' cis ais fis' cis ais } |
+  \tuplet 7/4 4 { e b' e gis b e gis b e b gis e b gis } \tuplet 6/4 4 { e' b gis e b gis e' b gis e' b gis } |
+  \tuplet 7/4 { fis=,, cis' fis \change Staff = "right" \clef "bass" dis' gis ais dis } \change Staff = "left" \tuplet 9/8 { fis,,32 cis' fis \change Staff = "right" \clef "treble" dis' gis ais dis gis ais } \change Staff = "left" <fis,, cis' fis>2 |
+
+
+
+  gis=4 dis' b' gis |
+  fis, cis' ais' fis |
+  e, b' e b |
+  cis, gis' b e |
+
+  e, b' e b |
+  cis, gis' b e |
+  e, b' e b |
+
+  \time 12/8
+
+
+  cis,4. gis' b e, |
+  gis,,=,,4. dis' gis dis' |
+  gis1. |
+
+  \fine
+
 }

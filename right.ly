@@ -161,5 +161,36 @@ right = \relative c' {
   dis'=' e fis gis dis' ais fis gis dis b cis ais fis gis dis r |
   dis'=' e fis gis dis' ais fis gis ais b cis dis ais'4 |
 
+  \tempo "Tempo 3" 4 = 88
+
+  <b,=' dis fis b>2 <ais ais'>4 <gis gis'> |
+  <fis cis' dis fis>2 <dis dis'>4 q16 <e e'> <fis fis'> <gis gis'> |
+  <fis fis'>2 <e e'>4 <dis dis'> |
+  <ais= dis fis ais>8 <b b'> <fis' fis'> <dis dis'> <ais' ais'> <b b'> <fis' fis'> <dis dis'> |
+
+  <dis='' gis ais dis>2 <cis cis'>4 <b b'> |
+  <ais=' dis fis ais>2 <gis gis'>4 <fis' fis'>8. <fis='' fis'>16 |
+  <dis='' gis ais dis>2 <dis,=' gis ais dis>4 \tuplet 3/2 { <dis=' dis'>8 q q } |
+  <dis gis ais dis>2 <dis'='' gis ais dis>\fermata |
+
+  \tempo "Tempo 4" 4 = 96 - 108
+
+  dis'='''16 gis, dis gis dis' gis, dis gis cis gis dis gis b gis dis gis |
+  ais fis cis fis ais fis cis fis ais fis cis fis ais fis cis fis |
+  ais, ais' b, ais' fis ais dis, ais' ais, ais' b, ais' fis ais dis, ais' |
+  dis, gis cis, gis' b, gis' cis, gis' dis gis cis, gis' b, gis' ais, gis' |
+
+  ais, ais' b, ais' fis ais dis, ais' ais, ais' b, ais' fis ais dis, ais' |
+  dis, gis cis, gis' b, gis' cis, gis' dis gis cis, gis' b, gis' ais, gis' |
+  ais, ais' b, ais' dis, ais' fis ais ais, ais' b, ais' fis ais ais ais' |
+
+  \time 12/8
+  \tempo "Lento" 4. = 52
+
+  b='''16 ais b gis dis b ais b gis dis b ais b gis dis b ais b gis dis b ais b ais |
+  b=, ais b dis gis b ais b dis gis b ais b dis gis b ais b dis gis b ais b dis |
+  gis1. |
+
+  \fine
 
 }
