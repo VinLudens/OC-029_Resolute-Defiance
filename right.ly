@@ -29,7 +29,7 @@ right = \relative c' {
 
   fis gis ais gis~8 fis cis' ais~ |
   2\) r4 dis,=''8\( eis |
-  fis gis ais gis~8 fis eis'4 |
+  fis gis ais( gis)\prall ~8 fis eis'4 |
   \acciaccatura eis8 cis2\fermata\) ais=''4 dis8 cis |
 
   s1 |
